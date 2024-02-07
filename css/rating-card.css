@@ -1,0 +1,73 @@
+.rating-card {
+  height: 415px;
+  width: 415px;
+  padding: 20px;
+  border-radius: 28px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.rating-card .image {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 23%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-card ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating-card li {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+
+.rating-card span {
+  background-color: hsl(25, 97%, 53%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+
+  width: 100%;
+  height: 45px;
+  border-radius: 22.5px;
+  font-weight: 550;
+}
+
+.rating-card a {
+  text-decoration: none;
+  width: 100%;
+  height: 45px;
+  border-radius: 22.5px;
+}
+
+.rating-card button {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 23%);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
